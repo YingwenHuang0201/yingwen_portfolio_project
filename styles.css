@@ -3,6 +3,7 @@
 :root {
   --heading-font-family: "Roboto", sans-serif;
   --heading-text-graycolor: #e0e0e0;
+  --content-p-color: #4c4c4c;
 }
 
 .hero {
@@ -35,6 +36,7 @@ h3 {
 
 p {
   font-family: var(--heading-font-family);
+  color: var(--content-p-color);
   font-weight: 400;
   font-size: 18px;
 }
