@@ -1,12 +1,32 @@
 /*font-family: 'Roboto', sans-serif;*/
 
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+.hero {
+  background-color: black;
+  text-align: center;
+  padding: 160px 0;
 }
 
-h2 {
+.hero h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 72px;
+}
+
+.hero h2 {
   font-family: "Roboto", sans-serif;
   font-style: italic;
   font-weight: 300;
+  color: #e0e0e0;
+  font-size: 36px;
+}
+
+.btn-light {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 50px 20px;
+  padding: 12px 40px;
 }
