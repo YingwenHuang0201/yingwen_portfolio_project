@@ -1,5 +1,10 @@
 /*font-family: 'Roboto', sans-serif;*/
 
+:root {
+  --heading-font-family: "Roboto", sans-serif;
+  --heading-text-graycolor: #e0e0e0;
+}
+
 .hero {
   background-color: black;
   text-align: center;
@@ -7,17 +12,17 @@
 }
 
 .hero h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: 500;
-  color: #ffffff;
+  color: white;
   font-size: 72px;
 }
 
 .hero h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--heading-font-family);
   font-style: italic;
   font-weight: 300;
-  color: #e0e0e0;
+  color: var(--heading-text-graycolor);
   font-size: 36px;
 }
 
