@@ -35,7 +35,7 @@ h1 {
   font-family: var(--heading-font-family);
   font-weight: 500;
   color: white;
-  font-size: 68px;
+  font-size: 58px;
 }
 
 h2 {
@@ -51,7 +51,7 @@ h2 {
   font-style: italic;
   font-weight: 300;
   color: var(--heading-text-graycolor);
-  font-size: 28px;
+  font-size: 26px;
   line-height: 40px;
 }
 
@@ -71,6 +71,14 @@ p {
 
 .year {
   font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.nameoftheexhibition {
+  font-family: var(--heading-font-family);
+  font-style: italic;
+  color: var(--content-p-color);
   font-weight: 700;
   font-size: 18px;
 }
@@ -120,15 +128,18 @@ p {
 
   .btn-light {
     font-size: 16px;
-    margin: 20px 5px;
-    padding: 5px 20px;
+    margin: 20px 8px;
+    padding: 8px 20px;
   }
 
   h3 {
     font-size: 28px;
   }
 
-  p {
+  p,
+  .exhibition_intro,
+  .nameoftheexhibition {
     font-size: 16px;
+    line-height: 24px;
   }
 }
